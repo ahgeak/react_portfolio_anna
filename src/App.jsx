@@ -15,8 +15,13 @@ export default function App() {
     document.title = "Anna Chuapetcharasopon Portfolio";
   }, []);
 
-  return 
-  <HeaderComponent>
-
-  </HeaderComponent>;
+  return (
+    <main>
+      <HeaderComponent>
+        <NavigationComponent />
+      </HeaderComponent>
+      <AboutComponent />
+      <FooterComponent />
+    </main>
+  );
 }
