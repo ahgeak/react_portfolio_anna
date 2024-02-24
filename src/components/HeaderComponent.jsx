@@ -1,1 +1,9 @@
-export default function HeaderComponent() {}
+import NavigationComponent from "./NavigationComponent";
+
+export default function HeaderComponent() {
+    return (
+        <header class="header">
+            <NavigationComponent />
+        </header>
+    );
+}
