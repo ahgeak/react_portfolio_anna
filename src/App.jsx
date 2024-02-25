@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Outlet } from 'react-router-dom';
 // import AboutComponent from "./components/AboutComponent";
 // import ContactComponent from "./components/ContactComponent";
 // import FooterComponent from "./components/FooterComponent";
@@ -52,6 +53,7 @@ export default function App() {
   return (
     <main>
           {/* <RouterProvider router={router} /> */}
+          <Outlet />
     </main>
   );
 }

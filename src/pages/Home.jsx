@@ -1,7 +1,7 @@
 import React from 'react'
 
 import HeaderComponent from '../components/HeaderComponent';
-import NavigationComponent from '../components/NavigationComponent';
+// import NavigationComponent from '../components/NavigationComponent';
 import FooterComponent from '../components/FooterComponent';
 
 const Home = () => {
