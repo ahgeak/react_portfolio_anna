@@ -1,4 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsEnvelope } from "react-icons/bs";
 
 export default function FooterComponent() {
   let date = new Date();
