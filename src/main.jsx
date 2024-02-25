@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
 
 import App from "./App";
 import Home from './pages/Home';
-import About from './pages/About'
+import About from './pages/About';
+import Projects from './pages/Projects'
 import "./index.css";
 
 // Bootstrap CSS
@@ -28,6 +29,14 @@ const router = createBrowserRouter([
     element: (
       <div>
         <About></About>
+      </div>
+    ),
+  },
+  {
+    path: "/projects",
+    element: (
+      <div>
+        <Projects></Projects>
       </div>
     ),
   },

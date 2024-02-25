@@ -8,7 +8,7 @@ export default function ProjectComponent() {
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
           <Card>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://placehold.co/600x400" />
             <Card.Body>
               <Card.Title>Packing List Travel Planner</Card.Title>
               <Card.Text>
@@ -26,9 +26,9 @@ export default function ProjectComponent() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="project-card">
+        <Col md={4} className="project-card">
           <Card>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://placehold.co/600x400" />
             <Card.Body>
               <Card.Title>GenZ Slang Translator</Card.Title>
               <Card.Text>
