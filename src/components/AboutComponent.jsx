@@ -39,7 +39,7 @@ export default function AboutComponent() {
         <Row className="skills-wrapper">
           <Col className="skills-wrapper">
             {/* add skills icon bar */}
-            </Col>
+             </Col>
         </Row>
       </Container>
     </Container>

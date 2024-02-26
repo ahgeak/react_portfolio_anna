@@ -1,4 +1,4 @@
-import { Container, Form, Card } from "react-bootstrap";
+import { Container, Form, Card, Button } from "react-bootstrap";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
@@ -20,6 +20,7 @@ export default function ContactComponent() {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" />
           </Form.Group>
+          <Button type="submit">Submit form</Button>
         </Form>
       </Card>
       <Card>
