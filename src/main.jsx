@@ -7,6 +7,7 @@ import App from "./App";
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects'
+import Contact from './pages/Contact';
 import "./index.css";
 
 // Bootstrap CSS
@@ -44,7 +45,8 @@ const router = createBrowserRouter([
     path: "/contact",
     element: (
       <div>
-        <Link to="contact">Contact</Link>
+        <Contact />
+        {/* <Link to="contact">Contact</Link> */}
       </div>
     ),
   },
