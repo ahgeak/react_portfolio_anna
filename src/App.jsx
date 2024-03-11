@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Outlet } from 'react-router-dom';
+import { Outlet } from "react-router-dom";
+
 // import AboutComponent from "./components/AboutComponent";
 // import ContactComponent from "./components/ContactComponent";
 // import FooterComponent from "./components/FooterComponent";
@@ -43,17 +44,17 @@ export default function App() {
     function updateTitle() {
       setTitle((previousTitle) => {
         console.log(previousTitle);
-        document.title = title + ' Portfolio';
-      })
-    };
+        document.title = title + " Portfolio";
+      });
+    }
 
     updateTitle();
   }, []);
 
   return (
     <main>
-          {/* <RouterProvider router={router} /> */}
-          <Outlet />
+      {/* <RouterProvider router={router} /> */}
+      <Outlet />
     </main>
   );
 }
