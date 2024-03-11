@@ -7,15 +7,15 @@ export default function FooterComponent() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container className="sticky-bottom">
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col>
           <h3>Developed by Anna Chuapetcharasopon</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col>
           <h3>Copyright © {year} </h3>
         </Col>
-        <Col md="4" className="footer-body">
+        <Col>
             <ul className="contact-links">
                 <li className="contact-icons">
                     <a href="https://www.linkedin.com/in/annachuapetcharasopon/" target="_blank" rel="noreferrer">

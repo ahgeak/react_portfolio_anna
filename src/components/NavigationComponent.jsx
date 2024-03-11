@@ -8,7 +8,7 @@ export default function NavigationComponent() {
         <Navbar.Brand>Anna Chuapetcharasopon</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav>
             <Nav.Item>
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
             </Nav.Item>

@@ -2,7 +2,7 @@ import NavigationComponent from "./NavigationComponent";
 
 export default function HeaderComponent() {
     return (
-        <header className="header">
+        <header>
             <NavigationComponent />
         </header>
     );
