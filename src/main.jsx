@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
-
+import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 
 import App from "./App";
-import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects'
-import Contact from './pages/Contact';
-import Resume from './pages/Resume'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 import "./index.css";
 
 // Bootstrap CSS
@@ -18,21 +17,12 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: (
-      <div>
-        <Home></Home>
-        {/* <Link to="home">Home</Link> */}
-      </div>
-    ),
+    index: true,
+    element: <Home />
   },
   {
     path: "/about",
-    element: (
-      <div>
-        <About></About>
-      </div>
-    ),
+    element: <About />,
   },
   {
     path: "/projects",
@@ -64,6 +54,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
   <RouterProvider router={router} />
-      // <App />
+  // <App />
   // </React.StrictMode>
 );

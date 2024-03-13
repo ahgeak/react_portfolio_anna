@@ -1,0 +1,21 @@
+[
+    {
+      "projectName": "project one",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Photo_of_Anna.jpg?raw=true",
+      "alt": "picture of blah",
+      "deployed": "https://family-chore-planner.onrender.com"
+    },
+    {
+      "projectName": "project one",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Photo_of_Anna.jpg?raw=true",
+      "alt": "picture of blah",
+      "deployed": ""
+      
+    },
+    {
+      "projectName": "project one",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Photo_of_Anna.jpg?raw=true",
+      "alt": "picture of blah",
+      "deployed": "https://family-chore-planner.onrender.com"
+    }
+  ]

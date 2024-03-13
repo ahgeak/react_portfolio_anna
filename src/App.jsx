@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 // import NavigationComponent from "./components/NavigationComponent";
 // import ProjectComponent from "./components/ProjectComponent";
 // import SkillsComponent from "./components/SkillsComponent";
-// import "./App.css";
+import "./App.css";
 
 // import {
 //   createBrowserRouter,

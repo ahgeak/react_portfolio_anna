@@ -7,21 +7,21 @@ export default function ContactComponent() {
   return (
     <Container>
       <Card className="p-3">
-        <Form>
+        <form target="_blank" action="https://formsubmit.co/annaedwardson@gmail.com" method="POST">
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control type="email" placeholder="Enter email"  name="email"/>
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label>Name</Form.Label>
-            <Form.Control placeholder="Enter name" />
+            <label>Name</label>
+            <input type="text" placeholder="Enter name" name="name" />
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" />
+            <label>Message</label>
+            <textarea  name="message"></textarea>
           </Form.Group>
           <Button type="submit">Submit form</Button>
-        </Form>
+        </form>
       </Card>
       <Card>
         <ul className="contact-links">
