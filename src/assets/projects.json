@@ -24,7 +24,7 @@
       "description": "Google Books API search engine that allows users to search for books they would like to read and save a list of books to their profile.",
       "technology": "Technologies used: MongoDB, Express, React, Node, GraphQL",
       "github": "https://github.com/ahgeak/book_search_engine",
-      "deployed": ""
+      "deployed": "https://book-search-engine-70lp.onrender.com/"
     },
     {
       "projectName": "Web Browser Text Editor",
