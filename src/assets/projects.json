@@ -1,7 +1,7 @@
 [
     {
       "projectName": "Family Chore Planner",
-      "image": "https://placehold.co/600x400",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/family-chore-planner-screenshot.png?raw=true",
       "alt": "Family Chore Screenshot",
       "description": "A full stack program that empowers parents and children alike to effortlessly manage household chores and earnings.",
       "technology": "Technologies used: MongoDB, Express, React, Node, JSON Web Token, Apollo, Chakra",
@@ -46,7 +46,7 @@
     },
     {
       "projectName": "Note Taker",
-      "image": "https://placehold.co/600x400",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/NoteTaker_Screenshot.png?raw=true",
       "alt": "Note Taker Screenshot",
       "description": "Note Taker is a program to help with keeping track of your tasks. The user can enter their notes, click the save button to store the notes and also click the delete button to remove notes.",
       "technology": "Technologies used: JavaScript, CSS, HTML, CRUD API Requests",

@@ -24,6 +24,18 @@ export default function AboutComponent() {
                   Learning, Design, and Technology. I have worked for over ten
                   years in the field of education.
                 </p>
+                <p>
+                Skills: <br/>
+                - JavaScript <br/>
+                - MongoDb <br/>
+                - Express <br/>
+                - React <br/>
+                - Node <br/>
+                - MySQL <br/>
+                - HTML <br/>
+                - CSS <br/>
+                - Git <br/>
+                </p>
               </Card.Body>
             </Card>
           </Col>
