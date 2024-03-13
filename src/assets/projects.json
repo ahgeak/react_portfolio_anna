@@ -1,21 +1,56 @@
 [
     {
-      "projectName": "project one",
-      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Photo_of_Anna.jpg?raw=true",
-      "alt": "picture of blah",
+      "projectName": "Family Chore Planner",
+      "image": "https://placehold.co/600x400",
+      "alt": "Family Chore Screenshot",
+      "description": "A full stack program that empowers parents and children alike to effortlessly manage household chores and earnings.",
+      "technology": "Technologies used: MongoDB, Express, React, Node, JSON Web Token, Apollo, Chakra",
+      "github": "https://github.com/Four-Moons-Tech/Family-Chore-Planner",
       "deployed": "https://family-chore-planner.onrender.com"
     },
     {
-      "projectName": "project one",
-      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Photo_of_Anna.jpg?raw=true",
-      "alt": "picture of blah",
+      "projectName": "Travel Planner Screenshot",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/PackingList_Screenshot.png?raw=true",
+      "alt": "Travel Planner Screenshot",
+      "description": "A program to help you plan your upcoming trip by creating a packing list.",
+      "technology": "Technologies used: Node, Express, Handlebars.js, mySQL, Sequelize, Materialized, Figma, JawsDB, Bcrypt",
+      "github": "https://github.com/ahgeak/packing_list_travel_planner",
+      "deployed": "https://shielded-earth-91970-0db761988706.herokuapp.com/"
+    },
+    {
+      "projectName": "Book Search Engine",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Screenshot_Book_Search_Engine.png?raw=true",
+      "alt": "Book Search Screenshot",
+      "description": "Google Books API search engine that allows users to search for books they would like to read and save a list of books to their profile.",
+      "technology": "Technologies used: MongoDB, Express, React, Node, GraphQL",
+      "github": "https://github.com/ahgeak/book_search_engine",
       "deployed": ""
-      
     },
     {
-      "projectName": "project one",
-      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/Photo_of_Anna.jpg?raw=true",
-      "alt": "picture of blah",
-      "deployed": "https://family-chore-planner.onrender.com"
+      "projectName": "Web Browser Text Editor",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/jate_screenshot.png?raw=true",
+      "alt": "Text Editor Screenshot",
+      "description": "A Progressive Web Application text editor program that runs in the browser.",
+      "technology": "Technologies used: JavaScript, Webpack, Workbox, Render, IndexedDB",
+      "github": "https://github.com/ahgeak/text_editor_progressive_web_app",
+      "deployed": "https://text-editor-progressive-web-app.onrender.com"
+    },
+    {
+      "projectName": "Weather Dashboard Trip Planner",
+      "image": "https://github.com/ahgeak/react_portfolio_anna/blob/main/src/assets/images/WeatherDashboardScreenshot.png?raw=true",
+      "alt": "Weather Dashboard Trip Planner Screenshot",
+      "description": "Program to plan a trip based on the upcoming local weather of searched cities.",
+      "technology": "Technologies used: JavaScript, third party API, CSS, HTML",
+      "github": "https://github.com/ahgeak/weather-dashboard-trip-planner",
+      "deployed": "https://ahgeak.github.io/weather-dashboard-trip-planner/"
+    },
+    {
+      "projectName": "Note Taker",
+      "image": "https://placehold.co/600x400",
+      "alt": "Note Taker Screenshot",
+      "description": "Note Taker is a program to help with keeping track of your tasks. The user can enter their notes, click the save button to store the notes and also click the delete button to remove notes.",
+      "technology": "Technologies used: JavaScript, CSS, HTML, CRUD API Requests",
+      "github": "https://github.com/ahgeak/note_taker",
+      "deployed": "https://gentle-lake-68304-246fd0ade036.herokuapp.com/"
     }
   ]
