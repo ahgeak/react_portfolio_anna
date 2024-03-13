@@ -7,23 +7,23 @@ export default function ContactComponent() {
   return (
     <Container>
       <Card className="p-3">
-        <form target="_blank" action="https://formsubmit.co/annaedwardson@gmail.com" method="POST">
+        <Form target="_blank" action="https://formsubmit.co/annaedwardson@gmail.com" method="POST">
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email"  name="email"/>
           </Form.Group>
           <Form.Group className="mb-3">
-            <label>Name</label>
-            <input type="text" placeholder="Enter name" name="name" />
+            <Form.Label>Name</Form.Label>
+            <Form.Control type="text" placeholder="Enter name" name="name" />
           </Form.Group>
           <Form.Group className="mb-3">
-            <label>Message</label>
-            <textarea  name="message"></textarea>
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" placeholder="Enter message" name="message" />
           </Form.Group>
           <Button type="submit">Submit form</Button>
-        </form>
+        </Form>
       </Card>
-      <Card>
+      {/* <Card>
         <ul className="contact-links">
           <li className="contact-icons">
             <a
@@ -53,7 +53,7 @@ export default function ContactComponent() {
             </a>
           </li>
         </ul>
-      </Card>
+      </Card> */}
     </Container>
   );
 }
